@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+header, main, footer{
+    flex: 1;
+}
+body{
+    background-color: rgb(41, 10, 112);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+.nav1,.nav2{
+    font-size: 25px;
+    background-color: blue;
+    padding: 0;
+    nav{
+        background-color: rgb(255, 255, 255);
+        ul{
+            display: flex;
+            justify-content: end;
+            
+            li{
+                padding: 2%;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    transition: all 0.8s;
+                    color: blue;
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.main1, .main2{
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+    section{
+        padding: 1%;
+        display: flex;
+        section{
+            display: flex;
+            flex-direction: column;
+        }        
+    }
+}
+.footer1,.footer2{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    font-size: 20px;
+    h4{
+        font-size: 20px;
+        padding: 1%;
+    }
+    ul{
+        li{
+            padding: 1%;
+            list-style-type: none;
+            a{
+                color: blue;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.ocultar{
+    display: none;
+}
+.color{
+    background-color: white;
+}
+
+.main1 {
+    background-color: blue;
+    
+}
+
+.main2{
+    background-color: blueviolet;
+}
+.pag-1{
+    width: 90px;
+    height: 40px;
+}
+
+.pag-2{
+    width: 90px;
+    height: 40px;
+}
